@@ -1,0 +1,17 @@
+pip install tda-api
+
+github.com/alexgolec/tda-api
+tda-api.readthedocs.io/en/latest/
+
+# creating token
+    login to developer.tdameritrade.com
+    goto my apps
+    create app = {
+    appname: %name%
+    callback url: https://localhost
+    purpose of application: to use TD API
+    }
+    create app click
+    click hyperlink named appname
+    copy consumer key
+    replace 'YOUR_API_KEY' in config.py with clipboard
